@@ -1,0 +1,22 @@
+{
+  "name": "campaign",
+  "version": "1.0.0",
+  "description": "",
+  "main": "compile.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^2.1.2",
+    "fs-extra": "^10.1.0",
+    "ganache": "^7.5.0",
+    "mocha": "^10.1.0",
+    "solc": "^0.4.17",
+    "web3": "^1.8.1"
+  }
+}
