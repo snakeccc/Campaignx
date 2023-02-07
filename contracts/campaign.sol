@@ -106,7 +106,18 @@ contract Compaign{
 
     }
 
-
+    function getSummary() public view returns(uint,uint,uint,uint,address){
+    
+        return (miniContribution,
+     this.balance,
+     Requests.length,
+     ContributedNumber,
+     Manager);
+    }
+    
+    function getRequestsCount()public view returns(uint){
+        return Requests.length;
+    }
 
 
 }
