@@ -1,3 +1,3 @@
 # Campaignx
  
- a simple Campaign website use react 
+ a simple Campaign the website use react 
